@@ -1,13 +1,17 @@
-  void main(){
+void main(){
+  List <String> lista1 = []; 
 
- List <String> nome_cliente = ['kiwada' , 'Marcela ' , 'Lucas'];
- print(nome_cliente);
+  lista1.add('Limão');
 
- List <String> Especial = [];
+  List <String>? lista2;
 
- for(String cliente in nome_cliente.sublist(2)){
-  Especial.add(cliente);
+ if(lista2 != null){
+     lista2.add('Kiwada');
  }
 
- print(Especial);
-  }
+  List<String?>? lista3;
+
+  if(lista3 != null){
+    lista3.add(null);
+}
+}
